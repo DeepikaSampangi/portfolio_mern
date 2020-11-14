@@ -325,19 +325,19 @@ header {
 
 .my-work {
   background-color: var(--clr-dark);
-  color: var(--clr-light);
+  color: var(--clr-accent);
   text-align: center;
 }
 
 .portfolio {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
 
 .portfolio__item {
-  background: var(--clr-accent);
+  background: var(--clr-dark);
   overflow: hidden;
-  padding: 0.5em;
+  padding: 0.75em;
 }
 
 .portfolio__img {
@@ -359,7 +359,7 @@ header {
 
 .my-certs {
   background-color: var(--clr-dark);
-  color: var(--clr-light);
+  color: var(--clr-accent);
   text-align: center;
 }
 
@@ -367,7 +367,7 @@ header {
 
 .my-books {
   background-color: var(--clr-dark);
-  color: var(--clr-light);
+  color: var(--clr-accent);
   text-align: center;
 }
 
@@ -375,7 +375,7 @@ header {
 
 .my-blogs {
   background-color: var(--clr-dark);
-  color: var(--clr-light);
+  color: var(--clr-accent);
   text-align: center;
 }
 
